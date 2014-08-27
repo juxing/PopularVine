@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LiveCameraActivity" >
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="700px" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="800px"
+        android:layout_below="@id/frame" 
+        android:singleLine="false" />
+
+</RelativeLayout>
+
+<!-- 
+        android:id="@+id/frame"
+        android:layout_width="500px"
+        android:layout_height= "500px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="100px" 
+        android:layout_marginRight="100px" 
+        android:layout_marginBottom="100px" 
+android:layout_gravity="center" -->
+
+<!--         
+        android:layout_marginTop="200px" -->
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <VideoView    
+        android:id="@+id/videoview"    
+        android:layout_width="500px"   
+        android:layout_height="500px"    
+        android:layout_gravity="center_vertical"
+        android:focusable="false"/>    
+    <TextView     
+        android:id="@+id/title"    
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"/>
+    <TextView    
+        android:id="@+id/url"    
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:layout_below="@id/title"/>
+
+</RelativeLayout> -->
